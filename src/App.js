@@ -4,12 +4,15 @@ import './App.css';
 // import TodoList from './components/TodoList'
 // import { Provider } from 'react-redux'
 // import store from './store/store'
-import AppRouter from './views/AppRouter'
+// import AppRouter from './views/AppRouter'
+// import HookDemo from './components/HookDemo';
+// import ReducerDemo from './components/ReducerDemo'
+import HookRedux from './components/HookRedux'
 
 function App() {
   return (
     <div className="App">
-      <AppRouter/>
+      <HookRedux/>
     </div>
   );
 }
